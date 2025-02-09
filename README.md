@@ -20,37 +20,41 @@ Antes de rodar o script, instale as dependências necessárias:
 
 ```bash
 pip install boto3 mypy-boto3-textract
+```
 
-
-2️⃣ Configurar AWS Credentials
+### 2️⃣ **Configurar AWS Credentials**
 Para utilizar o AWS Textract, configure suas credenciais da AWS:
 
 ```bash
 aws configure
+```
 
 Você precisará fornecer:
 - AWS Access Key ID
 - AWS Secret Access Key
 - Região padrão da AWS
 
-
-3️⃣ Executar o Script
-Basta rodar o arquivo main.py:
+### 3️⃣ **Executar o Script**
+Basta rodar o arquivo `main.py`:
 
 ```bash
 python main.py
+```
 
-Isso processará a imagem lista-material-escolar.jpeg e gerará um arquivo response.json contendo os resultados. Se o response.json já existir, o script evita chamadas desnecessárias ao AWS Textract, economizando tempo e custo.
+Isso processará a imagem `lista-material-escolar.jpeg` e gerará um arquivo `response.json` contendo os resultados. Se o `response.json` já existir, o script evita chamadas desnecessárias ao AWS Textract, economizando tempo e custo.
 
-
+## 📸 Exemplo de Saída
 Abaixo está um exemplo do texto extraído da imagem:
+
+```
 Lista de Material Escolar
 3 rolos de fita crepe
 1 bloco de canson A4
 1 fita adesiva
 ...
+```
 
-📈 Possíveis Melhorias
+## 📈 Possíveis Melhorias
 - Melhor tratamento dos resultados extraídos.
-- Integração com Amazon S3 para armazenar imagens automaticamente.
-- Uso de AWS Lambda para automação.
+- Integração com **Amazon S3** para armazenar imagens automaticamente.
+- Uso de **AWS Lambda** para automação.
