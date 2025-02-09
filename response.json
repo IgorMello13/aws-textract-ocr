@@ -1,0 +1,83 @@
+{
+  "Blocks": [
+    {
+      "BlockType": "PAGE",
+      "Id": "1"
+    },
+    {
+      "BlockType": "LINE",
+      "Id": "2",
+      "Text": "Lista de Material Escolar",
+      "Confidence": 99.8,
+      "Geometry": {
+        "BoundingBox": {
+          "Width": 0.8,
+          "Height": 0.05,
+          "Left": 0.1,
+          "Top": 0.05
+        }
+      },
+      "Relationships": []
+    },
+    {
+      "BlockType": "LINE",
+      "Id": "3",
+      "Text": "3 rolos de fita crepe",
+      "Confidence": 99.2,
+      "Geometry": {
+        "BoundingBox": {
+          "Width": 0.75,
+          "Height": 0.04,
+          "Left": 0.1,
+          "Top": 0.12
+        }
+      },
+      "Relationships": []
+    },
+    {
+      "BlockType": "LINE",
+      "Id": "4",
+      "Text": "1 bloco de canson A4",
+      "Confidence": 98.9,
+      "Geometry": {
+        "BoundingBox": {
+          "Width": 0.7,
+          "Height": 0.04,
+          "Left": 0.1,
+          "Top": 0.18
+        }
+      },
+      "Relationships": []
+    },
+    {
+      "BlockType": "LINE",
+      "Id": "5",
+      "Text": "1 fita adesiva",
+      "Confidence": 98.5,
+      "Geometry": {
+        "BoundingBox": {
+          "Width": 0.6,
+          "Height": 0.04,
+          "Left": 0.1,
+          "Top": 0.24
+        }
+      },
+      "Relationships": []
+    },
+    {
+      "BlockType": "LINE",
+      "Id": "6",
+      "Text": "2 caixas de lápis de cor",
+      "Confidence": 99.0,
+      "Geometry": {
+        "BoundingBox": {
+          "Width": 0.78,
+          "Height": 0.04,
+          "Left": 0.1,
+          "Top": 0.30
+        }
+      },
+      "Relationships": []
+    }
+  ]
+}
